@@ -1,0 +1,50 @@
+.contactsDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.filterLabel{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.filterInput{
+width: 200px;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.item{
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+
+.item:before {
+    content:"";
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    outline: 1px solid red;
+    border-radius: 50%;
+    /* vertical-align:middle; */
+    transform: translate(-200%, 100%);
+}
+.item:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.text{
+    margin: 0;
+    width: 260px;
+    display: inline-block;
+}

@@ -1,0 +1,31 @@
+.form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    border: 2px solid;
+}
+.nameLabel{
+    margin: 0;
+    font-size: 18px;
+}
+
+.nameInput{
+    margin: 0;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.numberLabel{
+    font-size: 18px;
+}
+
+.numberInput{
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.submit{
+    width: 100px;
+}
